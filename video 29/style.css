@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgray;
+    font-family: 'Poppins' san-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.card{
+    background-color: white;
+    width: 344px;
+    height: 444px;
+    border: 1px solid black;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.image img{
+    width: 340px;
+    height: 220px;
+    padding: 20px;
+    border-radius: 34px;
+}
+
+.tags{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding-right: 70%;
+    padding-bottom: 20px;
+}
+
+.tags span{
+    justify-content: baseline;
+    border: 2px solid black;
+}
+
+.tags .nature{
+    padding-top: 0px;
+    padding-left: 23px;
+}
+
+.tags .lake{
+    padding-top: 0px;
+    padding-left: 13px;
+}
+
+.para h3{
+    padding-left: 19px;
+    padding-bottom: 11px;
+}
+
+.para p{
+    padding-left: 19px;
+    padding-bottom: 11px;
+}
+
+.btn{
+    padding: 5px;
+    margin-bottom: 19px;
+}
+
+button{
+    background: cyan;
+    color: darkcyan;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 11px;
+    transition: 1s ease-out;
+}
+
+button:hover{
+    background-color: lightcyan;
+    color: cyan;
+}
