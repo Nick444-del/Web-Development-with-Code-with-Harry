@@ -1,0 +1,27 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.logo {
+    width: 40px;
+    height: 23px;
+}
+
+.logo h3{
+    background-color: lightblue;
+}
+
+nav{
+    display: flex;
+}
+
+.right ul{
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+    padding-right: 15px;
+}
