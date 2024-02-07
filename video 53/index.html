@@ -9,8 +9,19 @@
     
 
     <script>
-        alert('Hello, world!');
         console.log('Hello, world!');
+        
+        let a = {
+            name: 'ABCD',
+            eid: 5189,
+            salary: 25000
+        }
+        for (const key in a) {
+            if (Object.hasOwnProperty.call(a, key)) {
+                const element = a[key];
+                console.log(element);
+            }
+        }
     </script>
 </body>
 </html>
